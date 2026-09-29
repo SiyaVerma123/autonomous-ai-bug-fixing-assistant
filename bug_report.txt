@@ -1,0 +1,9 @@
+Bug Description:
+The divide function crashes when the second argument is zero.
+
+Error:
+ZeroDivisionError: division by zero
+
+Expected Behavior:
+When the denominator is zero, the function should return None
+instead of crashing.
